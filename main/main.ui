@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1074</width>
+    <height>696</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1074</width>
+      <height>653</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page"/>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1074</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCh_c_n_ng">
+    <property name="title">
+     <string>Quản lý</string>
+    </property>
+    <widget class="QMenu" name="menuQL_thu_cung">
+     <property name="title">
+      <string>QL thu cung</string>
+     </property>
+     <addaction name="btn_tc"/>
+     <addaction name="btn_gtc"/>
+    </widget>
+    <addaction name="menuQL_thu_cung"/>
+    <addaction name="btn_nv"/>
+    <addaction name="btn_tk"/>
+   </widget>
+   <widget class="QMenu" name="btn_thongke">
+    <property name="title">
+     <string>Thống kê</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="btn_thoat">
+    <property name="title">
+     <string>Thoát</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuB_n_h_ng">
+    <property name="title">
+     <string>Bán hàng</string>
+    </property>
+    <addaction name="btn_bantc"/>
+    <addaction name="btn_dv"/>
+   </widget>
+   <widget class="QMenu" name="btn_timkiem">
+    <property name="title">
+     <string>Tìm kiếm</string>
+    </property>
+   </widget>
+   <addaction name="menuB_n_h_ng"/>
+   <addaction name="menuCh_c_n_ng"/>
+   <addaction name="btn_timkiem"/>
+   <addaction name="btn_thongke"/>
+   <addaction name="btn_thoat"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="btn_nv">
+   <property name="text">
+    <string>QL nhân viên</string>
+   </property>
+  </action>
+  <action name="btn_tc">
+   <property name="text">
+    <string>Thú cưng</string>
+   </property>
+  </action>
+  <action name="btn_gtc">
+   <property name="text">
+    <string>Giống thú cưng</string>
+   </property>
+  </action>
+  <action name="btn_bantc">
+   <property name="text">
+    <string>Bán thú cưng</string>
+   </property>
+  </action>
+  <action name="btn_dv">
+   <property name="text">
+    <string>Dịch vụ</string>
+   </property>
+  </action>
+  <action name="btn_tk">
+   <property name="text">
+    <string>QL tài khoản</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

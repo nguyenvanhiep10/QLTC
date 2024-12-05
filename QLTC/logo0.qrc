@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>animals.png</file>
+    <file>Pet Haven.png</file>
+  </qresource>
+</RCC>

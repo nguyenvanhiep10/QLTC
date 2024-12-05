@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Pet Haven.png</file>
+    <file>self-service.png</file>
+  </qresource>
+</RCC>
